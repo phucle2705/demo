@@ -8,7 +8,6 @@
 
 <!-- Bootstrap -->
 <link href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.css" rel="stylesheet">
-
 </head>
 <body>
 <!-- Header -->
@@ -33,7 +32,15 @@
   <hr>
   <div class="row">
     <div class="col-sm-4">
-		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<script>
+			function hover(element) {
+  				element.setAttribute('src', 'image/TCH1.jpg');
+			}
+			function unhover(element) {
+  				element.setAttribute('src', 'image/TCH.png');
+			}
+		</script>
+		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover" onMouseOver="hover(this)" onMouseOut="unhover(this)"></a>
 		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
 		<a href="The_Craft_House.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>The Craft House</p></a>
 	</div>
