@@ -1,116 +1,127 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
-</style>
+<title>Local Art</title>
+
+<!-- Bootstrap -->
+<link href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.css" rel="stylesheet">
+
+</head>
 <body>
-
-<!-- Top menu -->
-<div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
-    <div class="w3-right w3-padding-16"></div>
-    <div class="w3-center w3-padding-16">Local Art</div>
-  </div>
-</div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
-	<div class="w3-center">
-		<form action="action_page.php">
-      		<input type="text" class="w3-bar-item w3-input" placeholder="Search..">
-      		<a href="#" class="w3-bar-item w3-button w3-green">Search</a>
-		</form>
-	</div>
-<hr>
-<div class="w3-row-padding w3-padding-16 w3-center">
-	<p class="w3-xxlarge"><strong>Popular art location</strong></p>
-</div>
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-col s4">
-		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="w3-image" style="object-fit: cover; height: 300px; width: 100%"></a>
-		<a href="The_Craft_House.html" target="_self" style="text-decoration: none;"><p>The Craft House</p></a>
-	  </div>
-    <div class="w3-col s4" style="max-height: 300px">
-		<img src="image/VNH.jpg" alt="Vietnam Handicraft" class="w3-image" style="object-fit: cover; height: 300px; width: 100%">
-		<p>Vietnam Handicraft</p>
-	  </div>
-    <div class="w3-col s4" style="max-height: 300px">
-		<img src="image/SMC.jpg" alt="So Much Closer" class="w3-image" style="object-fit: cover; height: 300px; width: 100%">
-		<p>So much closer</p>
-	  </div>
-  </div>
-
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-col s4">
-		<img src="image/TCH.png" alt="The Craft House" class="w3-image" style="object-fit: cover; height: 300px; width: 100%">
-		<p>The Craft House</p>
-	  </div>
-    <div class="w3-col s4" style="max-height: 300px">
-		<img src="image/VNH.jpg" alt="Vietnam Handicraft" class="w3-image" style="object-fit: cover; height: 300px; width: 100%">
-		<p>Vietnam Handicraft</p>
-	  </div>
-    <div class="w3-col s4" style="max-height: 300px">
-		<img src="image/SMC.jpg" alt="So Much Closer" class="w3-image" style="object-fit: cover; height: 300px; width: 100%">
-		<p>So much closer</p>
-	  </div>
-  </div>
-
-  <!-- Pagination -->
-  <div class="w3-center w3-padding-32">
-    <div class="w3-bar">
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
-      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
-      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+<!-- Header -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h2 class="text-center"><a href="index.html" target="_self" style="text-decoration: none; color: #000000;">Local Art</a></h2>
     </div>
   </div>
+</div>
+<br />
 
+<div class="container">
+  <form class="form-horizontal">
+  <div class="form-group form-group-sm text-center">
+    <div class="col-sm-8 col-sm-offset-2">
+      <input class="form-control" type="text" placeholder="Tìm địa điểm.." style="margin: 0 0 15px 0;">
+		<a href="#" class="btn btn-success">Tìm kiếm</a>
+    </div>
+  </div>
+</form>
   <hr>
-
-  <!-- About Section -->
-
-  <!-- Footer -->
-  <footer class="w3-row-padding w3-padding-32">
-    <div class="w3-half">
-      <h3>Local Art</h3>
-      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <div class="row">
+    <div class="col-sm-4">
+		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="The_Craft_House.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>The Craft House</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="Vietnam_Handicraft.html" target="_self"><img src="image/VNH.jpg" alt="Vietnam Handicraft" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="Vietnam_Handicraft.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>Vietnam Handicraft</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="So_Much_Closer.html" target="_self"><img src="image/SMC.jpg" alt="So Much Closer" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="So_Much_Closer.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;">So Much Closer</a>
+	</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="The_Craft_House.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>The Craft House</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="Vietnam_Handicraft.html" target="_self"><img src="image/VNH.jpg" alt="Vietnam Handicraft" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="Vietnam_Handicraft.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>Vietnam Handicraft</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="So_Much_Closer.html" target="_self"><img src="image/SMC.jpg" alt="So Much Closer" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="So_Much_Closer.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;">So Much Closer</a>
+	</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+		<a href="The_Craft_House.html" target="_self"><img src="image/TCH.png" alt="The Craft House" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="The_Craft_House.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>The Craft House</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="Vietnam_Handicraft.html" target="_self"><img src="image/VNH.jpg" alt="Vietnam Handicraft" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="Vietnam_Handicraft.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;"><p>Vietnam Handicraft</p></a>
+	</div>
+    <div class="col-sm-4">
+		<a href="So_Much_Closer.html" target="_self"><img src="image/SMC.jpg" alt="So Much Closer" class="img-responsive" style="height: 250px; width: 100%; object-fit: cover"></a>
+		<a href="" target="_self" class="col-sm-4" style="text-decoration: none; color: #000000;"><img src="image/SMC_logo.jpg" alt="Logo" class="img-rounded" style="width: 50px; height: 50px; object-fit: contain"></a>
+		<a href="So_Much_Closer.html" class="col-sm-8" target="_self" style="text-decoration: none; color: #000000;">So Much Closer</a>
+	</div>
+  </div>
+<hr>
+  <div class="row">
+    <div class="text-center col-md-12">
+      <div class="well"><strong> Easily build your page using the Bootstrap components from the Insert panel.</strong></div>
     </div>
-
-
-    <div class="w3-half w3-serif">
-      <h3>POPULAR TAGS</h3>
-      <p>
-        <span class="w3-tag w3-black w3-margin-bottom">Art Shop</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pottery</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Traditional Art</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Stationary</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Digital Art</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Jewelry</span>
-        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Toy</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Figure</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fashion</span>
-      </p>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <h4>Adding <strong>Buttons</strong></h4>
+      <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
+      <button type="button" class="btn btn-info btn-sm">Info Button</button>
+      <button type="button" class="btn btn-success btn-sm">Success Button</button>
     </div>
-  </footer>
-
-<!-- End page content -->
+    <div class="text-center col-sm-4">
+      <h4>Adding <strong>Labels</strong></h4>
+      <p>Using the insert panel, add labels to your page by using the label component.</p>
+      <span class="label label-warning">Info Label</span><span class="label label-danger">Danger Label</span> </div>
+    <div class="text-center col-sm-4">
+      <h4>Adding <strong>Glyphicons</strong></h4>
+      <p>You can also add glyphicons to your page from within the insert panel.</p>
+      <div class="row">
+        <div class="col-xs-4"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></div>
+        <div class="col-xs-4"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span> </div>
+        <div class="col-xs-4"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="text-center col-md-6 col-md-offset-3">
+      <h4>Footer </h4>
+      <p>Copyright &copy; 2019 &middot; All Rights Reserved &middot; <a href="http://yourwebsite.com/" >My Website</a></p>
+    </div>
+  </div>
+  <hr>
 </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/jquery-3.3.1.min.js"></script>
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
-
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
 </body>
 </html>
